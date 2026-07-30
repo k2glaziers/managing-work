@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1470 1100" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a-stereo" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d97b16"/>
+    </marker>
+    <marker id="a-theater" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2f6fb6"/>
+    </marker>
+    <marker id="a-hdmi" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7b4fb0"/>
+    </marker>
+    <marker id="a-sub" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3d8b46"/>
+    </marker>
+    <marker id="a-spk" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L12,6 L0,12 z" fill="#4a4a4a"/>
+    </marker>
+    <marker id="a-trig" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#888888"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1470" height="1100" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="40" y="48" font-size="24" font-weight="bold" fill="#222">Anjaneya Nagar Living Room — System Wiring</text>
+  <text x="40" y="72" font-size="13" fill="#555">2-channel stereo + 9.1.6 home theater · shared Sopra No3 fronts · switching = one input change on the P5</text>
+
+  <!-- legend -->
+  <rect x="940" y="16" width="510" height="68" rx="8" fill="#ffffff" stroke="#cccccc"/>
+  <line x1="960" y1="34" x2="990" y2="34" stroke="#d97b16" stroke-width="2.5"/>
+  <text x="998" y="38" font-size="11" fill="#333">Stereo XLR</text>
+  <line x1="1130" y1="34" x2="1160" y2="34" stroke="#2f6fb6" stroke-width="2.5"/>
+  <text x="1168" y="38" font-size="11" fill="#333">Theater XLR</text>
+  <line x1="1300" y1="34" x2="1330" y2="34" stroke="#7b4fb0" stroke-width="2.5"/>
+  <text x="1338" y="38" font-size="11" fill="#333">HDMI</text>
+  <line x1="960" y1="64" x2="990" y2="64" stroke="#3d8b46" stroke-width="2.5"/>
+  <text x="998" y="68" font-size="11" fill="#333">Sub low-level</text>
+  <line x1="1130" y1="64" x2="1160" y2="64" stroke="#4a4a4a" stroke-width="5"/>
+  <text x="1168" y="68" font-size="11" fill="#333">Speaker cable</text>
+  <line x1="1300" y1="64" x2="1330" y2="64" stroke="#888888" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="1338" y="68" font-size="11" fill="#333">12V trigger</text>
+
+  <!-- zones -->
+  <rect x="30" y="95" width="1420" height="210" rx="12" fill="#f9efe0"/>
+  <text x="45" y="113" font-size="12" font-weight="bold" fill="#b06d10">STEREO PATH — existing, untouched</text>
+  <rect x="30" y="335" width="1420" height="575" rx="12" fill="#e8f0f8"/>
+  <text x="45" y="355" font-size="12" font-weight="bold" fill="#2f6fb6">THEATER PATH</text>
+
+  <!-- ===== boxes: stereo ===== -->
+  <rect x="50" y="120" width="210" height="56" rx="8" fill="#ffffff" stroke="#b06d10" stroke-width="1.5"/>
+  <text x="155" y="143" font-size="14" font-weight="bold" fill="#222" text-anchor="middle">Linn Selekt DSM</text>
+  <text x="155" y="161" font-size="11" fill="#666" text-anchor="middle">Organic — streamer</text>
+
+  <rect x="50" y="210" width="210" height="56" rx="8" fill="#ffffff" stroke="#b06d10" stroke-width="1.5"/>
+  <text x="155" y="233" font-size="14" font-weight="bold" fill="#222" text-anchor="middle">Ayon CD-10 II T</text>
+  <text x="155" y="251" font-size="11" fill="#666" text-anchor="middle">tube CD player</text>
+  <text x="50" y="288" font-size="10" font-style="italic" fill="#8a6a3a">Ayon analog out feeds the P5 only — tube stage stays stereo-exclusive</text>
+
+  <rect x="400" y="110" width="230" height="180" rx="8" fill="#ffffff" stroke="#b06d10" stroke-width="1.5"/>
+  <text x="515" y="134" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">Michi P5</text>
+  <text x="515" y="150" font-size="11" fill="#666" text-anchor="middle">stereo preamp</text>
+  <text x="410" y="169" font-size="12" fill="#333">In 1 ← Linn · XLR</text>
+  <text x="620" y="181" font-size="12" fill="#333" text-anchor="end">Out → M5 · XLR</text>
+  <text x="410" y="194" font-size="12" fill="#333">In 2 ← Ayon · XLR</text>
+  <text x="410" y="222" font-size="12" fill="#333">In 3 ← MP-60 FL/FR</text>
+  <text x="410" y="240" font-size="12" font-weight="bold" fill="#c0392b">FIXED-GAIN BYPASS</text>
+  <text x="410" y="258" font-size="10" font-style="italic" fill="#666">volume knob must be dead on In 3</text>
+
+  <rect x="790" y="150" width="230" height="70" rx="8" fill="#ffffff" stroke="#b06d10" stroke-width="1.5"/>
+  <text x="905" y="178" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">Michi M5</text>
+  <text x="905" y="198" font-size="11" fill="#666" text-anchor="middle">stereo power amp</text>
+
+  <rect x="1160" y="140" width="270" height="90" rx="8" fill="#ffffff" stroke="#555" stroke-width="1.5"/>
+  <text x="1295" y="166" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">Focal Sopra No3 · pair</text>
+  <text x="1295" y="186" font-size="12" fill="#666" text-anchor="middle">front L / R — shared by</text>
+  <text x="1295" y="203" font-size="12" fill="#666" text-anchor="middle">stereo and theater</text>
+
+  <!-- ===== boxes: theater ===== -->
+  <rect x="50" y="470" width="210" height="64" rx="8" fill="#ffffff" stroke="#2f6fb6" stroke-width="1.5"/>
+  <text x="155" y="494" font-size="14" font-weight="bold" fill="#222" text-anchor="middle">4K UHD disc player</text>
+  <text x="155" y="514" font-size="11" fill="#666" text-anchor="middle">UB9000 / Magnetar — TBD</text>
+
+  <rect x="50" y="570" width="210" height="56" rx="8" fill="#ffffff" stroke="#2f6fb6" stroke-width="1.5"/>
+  <text x="155" y="602" font-size="14" font-weight="bold" fill="#222" text-anchor="middle">Streamer / set-top</text>
+
+  <rect x="400" y="450" width="230" height="330" rx="8" fill="#ffffff" stroke="#2f6fb6" stroke-width="2"/>
+  <text x="515" y="476" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">StormAudio ISP MP-60</text>
+  <text x="515" y="493" font-size="11" fill="#666" text-anchor="middle">16-ch AV processor · RoomPerfect</text>
+  <text x="410" y="524" font-size="12" fill="#333">HDMI 1 ← disc</text>
+  <text x="410" y="545" font-size="12" fill="#333">HDMI 2 ← streamer</text>
+  <text x="620" y="509" font-size="12" fill="#333" text-anchor="end">HDMI Out → projector</text>
+  <text x="620" y="572" font-size="12" fill="#333" text-anchor="end">Bed pre-out · 7× XLR</text>
+  <text x="620" y="624" font-size="12" fill="#333" text-anchor="end">Height pre-out · 6× XLR</text>
+  <text x="620" y="664" font-size="12" fill="#333" text-anchor="end">Sub 1</text>
+  <text x="620" y="689" font-size="12" fill="#333" text-anchor="end">Sub 2</text>
+  <text x="515" y="726" font-size="11" font-style="italic" fill="#666" text-anchor="middle">master volume for all 16 ch</text>
+  <text x="515" y="742" font-size="11" font-style="italic" fill="#666" text-anchor="middle">in theater mode</text>
+  <text x="515" y="770" font-size="10" fill="#888" text-anchor="middle">trigger out ↓</text>
+
+  <rect x="1160" y="350" width="270" height="60" rx="8" fill="#ffffff" stroke="#7b4fb0" stroke-width="1.5"/>
+  <text x="1295" y="374" font-size="15" font-weight="bold" fill="#222" text-anchor="middle">SIM2 Crystal 4 SH</text>
+  <text x="1295" y="392" font-size="11" fill="#666" text-anchor="middle">projector</text>
+
+  <rect x="790" y="470" width="230" height="120" rx="8" fill="#ffffff" stroke="#2f6fb6" stroke-width="1.5"/>
+  <text x="905" y="494" font-size="14" font-weight="bold" fill="#222" text-anchor="middle">Rotel MXA-8400 · #1</text>
+  <text x="905" y="512" font-size="11" fill="#666" text-anchor="middle">8-ch power amp — bed layer</text>
+  <text x="905" y="532" font-size="11" fill="#333" text-anchor="middle">ch 1–7 in use · ch 8 spare</text>
+  <text x="905" y="550" font-size="11" fill="#c0392b" text-anchor="middle">sens: 6V (low) · bridging: OFF</text>
+
+  <rect x="790" y="640" width="230" height="120" rx="8" fill="#ffffff" stroke="#2f6fb6" stroke-width="1.5"/>
+  <text x="905" y="664" font-size="14" font-weight="bold" fill="#222" text-anchor="middle">Rotel MXA-8400 · #2</text>
+  <text x="905" y="682" font-size="11" fill="#666" text-anchor="middle">8-ch power amp — height layer</text>
+  <text x="905" y="702" font-size="11" fill="#333" text-anchor="middle">ch 1–6 in use · 7–8 spare</text>
+  <text x="905" y="720" font-size="11" fill="#c0392b" text-anchor="middle">sens: 6V (low) · bridging: OFF</text>
+
+  <rect x="1160" y="460" width="270" height="140" rx="8" fill="#ffffff" stroke="#555" stroke-width="1.5"/>
+  <text x="1295" y="482" font-size="14" font-weight="bold" fill="#222" text-anchor="middle">Bed speakers</text>
+  <text x="1172" y="506" font-size="12" fill="#333">C — Focal Electra center</text>
+  <text x="1172" y="526" font-size="12" fill="#333">Wide L/R — Focal Sib</text>
+  <text x="1172" y="546" font-size="12" fill="#333">Surround L/R — Focal Sib</text>
+  <text x="1172" y="566" font-size="12" fill="#333">Rear L/R — Focal Sib</text>
+  <text x="1172" y="586" font-size="10" font-style="italic" fill="#888">(future: 2nd center woofer on ch 8)</text>
+
+  <rect x="1160" y="650" width="270" height="100" rx="8" fill="#ffffff" stroke="#555" stroke-width="1.5"/>
+  <text x="1295" y="672" font-size="14" font-weight="bold" fill="#222" text-anchor="middle">Height speakers</text>
+  <text x="1295" y="696" font-size="12" fill="#333" text-anchor="middle">6× Monitor Audio in-ceiling</text>
+  <text x="1295" y="716" font-size="12" fill="#333" text-anchor="middle">Top Front / Middle / Rear · L+R</text>
+
+  <rect x="1160" y="790" width="270" height="50" rx="8" fill="#ffffff" stroke="#3d8b46" stroke-width="1.5"/>
+  <text x="1295" y="810" font-size="13" font-weight="bold" fill="#222" text-anchor="middle">REL HT/1508 · #1</text>
+  <text x="1295" y="828" font-size="10" fill="#666" text-anchor="middle">LFE in · REL crossover bypassed</text>
+
+  <rect x="1160" y="855" width="270" height="50" rx="8" fill="#ffffff" stroke="#3d8b46" stroke-width="1.5"/>
+  <text x="1295" y="875" font-size="13" font-weight="bold" fill="#222" text-anchor="middle">REL HT/1508 · #2</text>
+  <text x="1295" y="893" font-size="10" fill="#666" text-anchor="middle">LFE in · REL crossover bypassed</text>
+
+  <!-- ===== connections: stereo ===== -->
+  <path d="M260,148 H340 V165 H400" fill="none" stroke="#d97b16" stroke-width="2.5" marker-end="url(#a-stereo)"/>
+  <text x="300" y="140" font-size="10" fill="#d97b16" text-anchor="middle">XLR</text>
+  <path d="M260,238 H340 V190 H400" fill="none" stroke="#d97b16" stroke-width="2.5" marker-end="url(#a-stereo)"/>
+  <text x="300" y="252" font-size="10" fill="#d97b16" text-anchor="middle">XLR</text>
+  <path d="M630,185 H790" fill="none" stroke="#d97b16" stroke-width="2.5" marker-end="url(#a-stereo)"/>
+  <text x="710" y="177" font-size="10" fill="#d97b16" text-anchor="middle">XLR</text>
+  <path d="M1020,185 H1160" fill="none" stroke="#4a4a4a" stroke-width="5" marker-end="url(#a-spk)"/>
+  <text x="1090" y="204" font-size="10" fill="#4a4a4a" text-anchor="middle">VDH 3T The Air</text>
+  <text x="1090" y="217" font-size="10" font-weight="bold" fill="#c0392b" text-anchor="middle">do not modify</text>
+
+  <!-- ===== connections: theater bypass bridge ===== -->
+  <path d="M470,450 V290" fill="none" stroke="#2f6fb6" stroke-width="2.5" marker-end="url(#a-theater)"/>
+  <text x="482" y="340" font-size="11" font-weight="bold" fill="#2f6fb6">FL/FR pre-out · XLR pair</text>
+  <text x="482" y="356" font-size="11" fill="#2f6fb6">→ P5 In 3 (theater bypass)</text>
+
+  <!-- ===== connections: HDMI ===== -->
+  <path d="M260,502 H340 V520 H400" fill="none" stroke="#7b4fb0" stroke-width="2.5" marker-end="url(#a-hdmi)"/>
+  <text x="300" y="494" font-size="10" fill="#7b4fb0" text-anchor="middle">HDMI</text>
+  <path d="M260,598 H340 V550 H400" fill="none" stroke="#7b4fb0" stroke-width="2.5" marker-end="url(#a-hdmi)"/>
+  <text x="300" y="612" font-size="10" fill="#7b4fb0" text-anchor="middle">HDMI</text>
+  <path d="M630,505 H760 V380 H1160" fill="none" stroke="#7b4fb0" stroke-width="2.5" marker-end="url(#a-hdmi)"/>
+  <text x="950" y="372" font-size="10" fill="#7b4fb0" text-anchor="middle">HDMI — eARC main out</text>
+
+  <!-- ===== connections: theater XLR to amps ===== -->
+  <path d="M630,560 H710 V530 H790" fill="none" stroke="#2f6fb6" stroke-width="2.5" marker-end="url(#a-theater)"/>
+  <text x="665" y="552" font-size="10" fill="#2f6fb6" text-anchor="middle">7× XLR</text>
+  <path d="M630,620 H730 V700 H790" fill="none" stroke="#2f6fb6" stroke-width="2.5" marker-end="url(#a-theater)"/>
+  <text x="665" y="612" font-size="10" fill="#2f6fb6" text-anchor="middle">6× XLR</text>
+
+  <!-- ===== connections: subs ===== -->
+  <path d="M630,660 H700 V815 H1160" fill="none" stroke="#3d8b46" stroke-width="2.5" marker-end="url(#a-sub)"/>
+  <text x="930" y="807" font-size="10" fill="#3d8b46" text-anchor="middle">sub 1 · low-level (XLR→RCA if needed)</text>
+  <path d="M630,685 H680 V880 H1160" fill="none" stroke="#3d8b46" stroke-width="2.5" marker-end="url(#a-sub)"/>
+  <text x="930" y="872" font-size="10" fill="#3d8b46" text-anchor="middle">sub 2 · low-level — no daisy chain</text>
+
+  <!-- ===== connections: speaker level ===== -->
+  <path d="M1020,530 H1160" fill="none" stroke="#4a4a4a" stroke-width="5" marker-end="url(#a-spk)"/>
+  <text x="1090" y="520" font-size="10" fill="#4a4a4a" text-anchor="middle">speakON → 7 spkrs</text>
+  <path d="M1020,700 H1160" fill="none" stroke="#4a4a4a" stroke-width="5" marker-end="url(#a-spk)"/>
+  <text x="1090" y="690" font-size="10" fill="#4a4a4a" text-anchor="middle">speakON → 6 spkrs</text>
+
+  <!-- ===== connections: triggers ===== -->
+  <path d="M560,780 V810 H755 V575 H790" fill="none" stroke="#888888" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#a-trig)"/>
+  <text x="640" y="802" font-size="10" fill="#888" text-anchor="middle">12V trigger</text>
+  <path d="M905,590 V640" fill="none" stroke="#888888" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#a-trig)"/>
+  <text x="917" y="618" font-size="10" fill="#888">12V link</text>
+  <path d="M590,290 V320 H870 V220" fill="none" stroke="#888888" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#a-trig)"/>
+  <text x="700" y="312" font-size="10" fill="#888" text-anchor="middle">12V trigger (optional)</text>
+
+  <!-- ===== port dots ===== -->
+  <circle cx="400" cy="165" r="3.5" fill="#d97b16"/>
+  <circle cx="400" cy="190" r="3.5" fill="#d97b16"/>
+  <circle cx="630" cy="185" r="3.5" fill="#d97b16"/>
+  <circle cx="470" cy="290" r="3.5" fill="#2f6fb6"/>
+  <circle cx="470" cy="450" r="3.5" fill="#2f6fb6"/>
+  <circle cx="400" cy="520" r="3.5" fill="#7b4fb0"/>
+  <circle cx="400" cy="550" r="3.5" fill="#7b4fb0"/>
+  <circle cx="630" cy="505" r="3.5" fill="#7b4fb0"/>
+  <circle cx="630" cy="560" r="3.5" fill="#2f6fb6"/>
+  <circle cx="630" cy="620" r="3.5" fill="#2f6fb6"/>
+  <circle cx="630" cy="660" r="3.5" fill="#3d8b46"/>
+  <circle cx="630" cy="685" r="3.5" fill="#3d8b46"/>
+
+  <!-- ===== notes ===== -->
+  <rect x="30" y="930" width="1420" height="150" rx="12" fill="#f4f4f4" stroke="#dddddd"/>
+  <text x="50" y="956" font-size="14" font-weight="bold" fill="#222">Setup notes</text>
+  <text x="50" y="980" font-size="12" fill="#333">1.  P5 In 3 must be fixed-gain / bypass — if the P5 volume knob still changes level on that input, it is NOT in bypass (risk: full-scale output into the Sopras).</text>
+  <text x="50" y="1000" font-size="12" fill="#333">2.  Music: P5 In 1/2, MP-60 and MXAs stay off.  Movies: P5 In 3, power M5 + MXAs — the MP-60 controls volume for all 16 channels.</text>
+  <text x="50" y="1020" font-size="12" fill="#333">3.  MXA-8400 ×2: input sensitivity LOW (6V) to start · bridging OFF · speakON at amp end · keep XLR and speaker runs apart, cross at 90° if unavoidable.</text>
+  <text x="50" y="1040" font-size="12" fill="#333">4.  RELs: use the .1/LFE low-level input with each REL's own crossover bypassed/maxed — the MP-60 does all bass management; two separate sub outs, no daisy chain.</text>
+  <text x="50" y="1060" font-size="12" fill="#333">5.  After wiring: run RoomPerfect with full 9.1.6 + 2 subs · verify channel identity with test tones · presets: Movie / Mono-Classic (Kurosawa) / Music Multichannel.</text>
+</svg>
