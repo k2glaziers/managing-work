@@ -1,0 +1,13 @@
+{
+  "name": "ai-collab",
+  "version": "0.1.0",
+  "description": "Make Claude and ChatGPT debate a decision until they agree, using your existing subscriptions via the Claude Code and Codex CLIs.",
+  "bin": { "ai-collab": "bin/ai-collab.js" },
+  "scripts": {
+    "start": "node bin/ai-collab.js",
+    "demo": "node bin/ai-collab.js -a mock -b mock -m mock --no-clarify \"Should I upgrade my phone?\"",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
