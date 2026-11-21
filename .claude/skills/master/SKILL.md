@@ -18,7 +18,8 @@ There are well over a hundred skills installed. A short or loosely worded reques
 2. **Read the live skill list.** The list of available skills in the session is the authority; the map below is only a starting point and may be out of date. Prefer a skill whose description matches the outcome, not just the words used.
 
 3. **Pick using these tie-breakers, in order:**
-   - **Company-specific beats generic.** Skills prefixed `k2` or `brand-k2` carry this business's own standards and voice. When one covers the job, use it in place of, or after, the generic equivalent (for example, write with a marketing skill, then check against `brand-k2`).
+   - **K2 work goes to `k2-skill-master`.** Anything about K2 Glaziers' own products, engineering, drawings, STEP files, branded material, competitors or in-house apps is routed by `k2-skill-master`, which owns the K2 routing table, chain order (evidence, engineering, presentation, QA) and house rules. Hand over to it rather than choosing among the K2 skills here, so there is only one place to maintain.
+   - **Company-specific beats generic.** When a generic skill produces something K2 will publish or send (a post, quote, brochure, slide), finish with `brand-k2`, and apply the house rules in `k2-skill-master` to the output.
    - **Narrow beats broad.** `small-business:invoice-chase` beats `small-business:smb-router` for chasing an invoice.
    - **Fit the size of the business.** For day-to-day running of the company, prefer `small-business:*` over the enterprise-flavoured `finance:*`, `sales:*` or `operations:*` skills, unless the user asks for the heavier treatment.
    - **File type decides the last step.** If the result must be a Word, Excel, PowerPoint or PDF file, finish with `docx`, `xlsx`, `pptx` or `pdf`.
@@ -38,7 +39,7 @@ A guide to families of skills. Check the live list for exact names and newer add
 
 | The user wants... | Look at |
 |---|---|
-| Anything in the company's own voice, standards, app QA or competitor complaints | `brand-k2`, `k2-engineering-standard`, `k2eng`, `k2-app-qa`, `k2-competitor-complaints` |
+| Any K2 Glaziers task: engineering and load checks, STEP files, branded material, competitor review mining, in-house app testing | `k2-skill-master` (it routes to `k2-engineering-standard`, `animation-step`, `brand-k2`, `k2-competitor-complaints`, `k2-app-qa`) |
 | A start-of-day or start-of-week picture | `morning`, `small-business:monday-brief`, `small-business:business-pulse`, `sales:daily-briefing` |
 | Money in: invoices, cash, month end, tax | `small-business:invoice-chase`, `cash-flow-snapshot`, `close-month`, `month-end-prep`, `tax-prep` |
 | Money out: bills, payroll | `small-business:pay-the-bills`, `ap-processor`, `payroll-prep`, `plan-payroll` |
